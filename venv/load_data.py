@@ -98,6 +98,5 @@ write_pandas(ctx, df, table_name='sales.customers')
 
 
 
-# Close snowflake connection
 cs.close()
 ctx.close()
